@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+@use '@angular/material' as mat;
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+/* Custom colors */
+$redbtn: Red;
+$grnbtn: #24d424;
+$ylwclr: #fdb927;
+
+/* Root variables for dark theme */
+:root {
+  --acolor: #181f32;
+  --tcolor: #0a0d16;
+  --fcolor: white;
+  --focolor: white;
+  --dbcolor: #111725;
+  --mpcolor: #0a0d16;
+}
+
+
+
+
+/* Body styles */
+body {
+  margin: 0;
+  padding: 0;
+  max-height: 100vh;
+  font-family: Roboto, "Helvetica Neue", sans-serif !important;
+  background-color: var(--acolor) !important;
+  // color: var(--bcolor) !important;
+}
+
