@@ -1,21 +1,70 @@
+.logo{
+  position: relative;
+  left: -300px;
+}
+/* Navbar Styling */
 .navbar {
-    background-color: #f8f9fa;
-    color: green;
+  background-color:  transparent;
+  padding: 10px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0.5px;
+  border-style: solid;
+  border-color: greenyellow;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Navigation Links */
+.navbar-links {
+  list-style: none;
+  display: flex;
   
-    .navbar-brand {
-      font-weight: bold;
-      font-size: 1.5rem;
-    }
-  
-    .nav-link {
-      margin-right: 15px;
-    }
-  
-    .dropdown-menu {
-      background-color: #fff;
-    }
-  }
-  
-  #navbarNav{
-    color: rgb(64, 134, 64) ;
-  }
+}
+
+.navbar-links li {
+  margin: 0 15px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.nav-link:hover {
+  color: #ddd;
+}
+
+#nav{
+  position: relative;
+  right: -300px;
+}
+
+button{
+  background-color: transparent;
+  color: white;
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.login{
+  transform: translate(320px,-9px);
+  width: 130px;
+}
